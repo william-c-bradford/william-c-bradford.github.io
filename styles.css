@@ -48,28 +48,6 @@ section{
 	margin:0 auto;
 }
 
-.blocklist > li{
-	display:flex;
-	justify-content:center;
-}
-.blocklist > div{
-	flex-grow:1;
-	align-self:center;
-}
-.blocklist > li > img{
-	width:150px;
-	height:150px;
-	margin:10px;
-}
-.blocklist > li:nth-child(odd){
-	flex-direction:row;
-	text-align:left;
-}
-.blocklist > li:nth-child(even){
-	flex-direction:row-reverse;
-	text-align:right;
-}
-
 .hero{
 	height:100vh;
 	display:flex;
@@ -98,6 +76,28 @@ section{
 			   0px 0px 100px 50px #960 inset;
 }
 
+.blocklist > li{
+	display:flex;
+	justify-content:center;
+}
+.blocklist > div{
+	flex-grow:1;
+	align-self:center;
+}
+.blocklist > li > img{
+	width:150px;
+	height:150px;
+	margin:10px;
+}
+.blocklist > li:nth-child(odd){
+	flex-direction:row;
+	text-align:left;
+}
+.blocklist > li:nth-child(even){
+	flex-direction:row-reverse;
+	text-align:right;
+}
+
 .list li{
 	display:inline;
 	font-weight:bold;
@@ -111,4 +111,17 @@ section{
 }
 .list li:not(:last-child):after{
 	content:", ";
+}
+
+.bio{
+	text-align:justify;
+	max-width:500px;
+	margin:0 auto;
+}
+.bio p{
+	margin:20px auto;
+}
+.bio li{
+	list-style-position:inside;
+	list-style-type:none;
 }
