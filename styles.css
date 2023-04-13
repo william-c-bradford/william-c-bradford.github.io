@@ -164,6 +164,10 @@ address{
 .nav li{
 	list-style-type:none;
 	flex-grow:1;
+	border-right:1px solid white;
+}
+.nav li:last-child{
+	border-right:none;
 }
 .nav li a{
 	display:block;
