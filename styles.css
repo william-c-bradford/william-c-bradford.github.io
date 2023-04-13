@@ -128,9 +128,11 @@ address{
 .list li{
 	display:inline;
 	font-weight:bold;
-	-webkit-user-select: none; /* Safari */
-	-ms-user-select: none; /* IE 10 and IE 11 */
-	user-select: none;
+	
+	/* Placeholder; delete after adding coding projects here */
+	-webkit-user-select:none; /* Safari */
+	-ms-user-select:none; /* IE 10 and IE 11 */
+	user-select:none;
 	color:white;
 }
 .list li > h2{
